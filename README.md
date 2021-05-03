@@ -11,5 +11,5 @@ The class can return the current hovered state, hoveredObjects, and all original
 
 
 
-*ps. Does not check for mouse click.
+*ps. Does not check for mouse click.*
 
