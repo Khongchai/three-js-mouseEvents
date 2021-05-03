@@ -7,8 +7,11 @@ type CustomHoverEvents = "mouseenter" | "mouseleave" | "outside" | "inside";
  *
  * Can also return the hoveredObjects
  *
- * Initiate the MouseEventsMonitor object and then call
- * getAllHoveredData() when needed
+ * Initiate the HoverEventsMonitor, call checkHoverEvents, then
+ * get data as needed.
+ *
+ * If necessary, can check for hoverState upon instantiation;
+ * simply pass in the checkImmediately and the normalizedMousecoordinate.
  */
 export class HoverEventsMonitor {
   private hoverState: CustomHoverEvents;
