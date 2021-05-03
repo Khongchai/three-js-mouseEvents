@@ -8,3 +8,6 @@ Mouse events Class for monitoring hoverEvents in threejs.
 
 The class can return the current hovered state, hoveredObjects, and all original objects passed upon instantiation.
 
+
+>> Does not check for mouse click.
+
