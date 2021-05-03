@@ -40,7 +40,7 @@ export class HoverEventsMonitor {
         this.raycaster.setFromCamera(this.mouseCoordinate, this.camera);
       } else {
         throw new Error(
-          "To check immediately, normalizedMouseCoordinate and camera must be passed in on instantiation"
+          "To check immediately, normalizedMouseCoordinate must be passed in on instantiation"
         );
       }
     }
