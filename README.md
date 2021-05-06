@@ -1,5 +1,5 @@
 # three-js-mouseEvents
-Mouse events Class for monitoring hoverEvents in threejs.
+Mouse events class for monitoring hoverEvents in threejs.
 
 1 **inside**
 2. **outside**
