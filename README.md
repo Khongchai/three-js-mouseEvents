@@ -31,7 +31,7 @@ And in the animation loop:
  hoverEventsMonitor.checkHoverEvents(mouse);
 ```
 
-The class can return the current hovered state, hoveredObjects, and all original objects passed upon instantiation. All can be gotten at once, or individually.
+The class can return the current hovered state, hoveredObjects, and all original objects passed upon instantiation. All can be retreived at once, or individually.
 ```js
    const hoverData = hoverEventsMonitor.getAllHoverData();
    const hoveredObjects = hoverEventsMonitor.getHoveredObjects();
